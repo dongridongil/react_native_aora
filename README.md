@@ -1,50 +1,22 @@
-# Welcome to your Expo app 👋
+# Aora 사이트 React Native 풀 스택 클론 코딩
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 개발환경
 
-## Get started
+* Expo 프로젝트 환경설정 및 링크 구성: `npx expo install expo-linking` <br />
 
-1. Install dependencies
+* Expo 프로젝트에서 상수 관리: `npx expo install expo-constants` <br />
 
-   ```bash
-   npm install
-   ```
+* Expo 프로젝트에서 상태 표시줄 관리: `npx expo install expo-status-bar` <br />
 
-2. Start the app
+* Expo Router 설치: `npx expo install expo-router` <br />
 
-   ```bash
-    npx expo start
-   ```
+* Expo 프로젝트에서 안전 영역 컨텍스트 제공: `npx expo install react-native-safe-area-context` <br />
 
-In the output, you'll find options to open the app in a
+* Expo 프로젝트에서 화면 구성 요소 관리: `npx expo install react-native-screens` <br />
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Tailwind CSS 설치 및 초기화: `npm install tailwindcss@3.3.2 && npx tailwindcss init` <br />
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Expo 프로젝트에서 NativeWind를 사용한 Tailwind CSS 스타일링: `npx expo install nativewind --save-dev` <br />
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 앱 구동 화면
+![KakaoTalk_20240601_162936964](https://github.com/dongridongil/react_native_aora/assets/108976641/69e9784a-b850-49bf-9096-4659e1a15ef2)

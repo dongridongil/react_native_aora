@@ -74,9 +74,9 @@ const SignIn = () => {
                     />
 
                     <View className="flex justify-center pt-5 flex-row gap-2">
-                        <Text className="text-lg text-gray-100 font-pregular">Don't have an account?</Text>
+                        <Text className="text-lg text-gray-100 font-pregular">계정이 없으신가요?</Text>
                         <Link href="/sign-up" className="text-lg font-psemibold text-secondary">
-                            Signup
+                            회원가입
                         </Link>
                     </View>
                 </View>

@@ -28,7 +28,11 @@ const GlobalProvider = ({ children }) => {
                 setLoading(false);
             });
     }, []);
-
+    const handleLogout = () => {
+        // 로그아웃 시 사용자 상태 초기화
+        setIsLogged(false);
+        setUser(null);
+    };
     return (
         <GlobalContext.Provider
             value={{
@@ -37,6 +41,7 @@ const GlobalProvider = ({ children }) => {
                 user,
                 setUser,
                 loading,
+                handleLogout
             }}
         >
             {children}

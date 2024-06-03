@@ -7,6 +7,7 @@ import CustomButton from '../../components/CustomButton';
 import FormField from '../../components/FormField';
 import { getCurrentUser, signIn } from '../../lib/appwrite';
 import { useGlobalContext } from '../../context/GlobalProvider';
+import Guestmode from '../../components/Guestmode';
 
 const SignIn = () => {
     const { setUser, setIsLogged } = useGlobalContext();
@@ -18,7 +19,7 @@ const SignIn = () => {
 
     const submit = async () => {
         if (form.email === '' || form.password === '') {
-            Alert.alert('Error', 'Please fill in all fields');
+            Alert.alert('Error', '필드를 채워주세요');
         }
 
         setSubmitting(true);
@@ -26,10 +27,11 @@ const SignIn = () => {
         try {
             await signIn(form.email, form.password);
             const result = await getCurrentUser();
+
             setUser(result);
             setIsLogged(true);
 
-            Alert.alert('Success', 'User signed in successfully');
+            Alert.alert('Success', '로그인 하셨습니다.');
             router.replace('/home');
         } catch (error) {
             Alert.alert('Error', error.message);
@@ -49,13 +51,16 @@ const SignIn = () => {
                 >
                     <Image source={images.logo} resizeMode="contain" className="w-[115px] h-[34px]" />
 
-                    <Text className="text-2xl font-semibold text-white mt-10 font-psemibold">Log in to Aora</Text>
+                    <Text className="text-2xl font-semibold text-white mt-10 mb-8 font-psemibold">
+                        지금 바로 로그인 하세요!
+                    </Text>
 
                     <FormField
+                        cla
                         title="Email"
                         value={form.email}
                         handleChangeText={(e) => setForm({ ...form, email: e })}
-                        otherStyles="mt-7"
+                        otherstyles="mt-7"
                         keyboardType="email-address"
                     />
 
@@ -63,7 +68,7 @@ const SignIn = () => {
                         title="Password"
                         value={form.password}
                         handleChangeText={(e) => setForm({ ...form, password: e })}
-                        otherStyles="mt-7"
+                        otherstyles="mt-7"
                     />
 
                     <CustomButton
@@ -79,6 +84,7 @@ const SignIn = () => {
                             회원가입
                         </Link>
                     </View>
+                    {/* <Guestmode containerStyles="mt-7" /> */}
                 </View>
             </ScrollView>
         </SafeAreaView>

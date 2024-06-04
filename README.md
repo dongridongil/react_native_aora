@@ -28,3 +28,6 @@
 ## 페이지 구성
 
 ![ezgif-2-7e8fc24283](https://github.com/dongridongil/react_native_aora/assets/108976641/0ea12e36-3231-4d9c-8dd4-36d0bbffecb0)
+
+## 비디오 업로드
+![create](https://github.com/dongridongil/react_native_aora/assets/108976641/e36afe9f-8359-48dd-87b0-b27ce3714a49)

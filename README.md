@@ -19,8 +19,12 @@
 * Expo 프로젝트에서 NativeWind를 사용한 Tailwind CSS 스타일링: `npx expo install nativewind --save-dev` <br />
 
 ### 앱 구동 화면
-![KakaoTalk_20240601_162936964](https://github.com/dongridongil/react_native_aora/assets/108976641/69e9784a-b850-49bf-9096-4659e1a15ef2)
+
 
 ## 회원가입 
 
 <img src="https://github.com/dongridongil/react_native_aora/assets/108976641/06abccd0-7736-427b-bf8c-bb45088ecf89" width="400" height="600" />
+
+## 페이지 구성
+
+![ezgif-2-7e8fc24283](https://github.com/dongridongil/react_native_aora/assets/108976641/0ea12e36-3231-4d9c-8dd4-36d0bbffecb0)

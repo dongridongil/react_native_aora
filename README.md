@@ -22,4 +22,4 @@
 ![KakaoTalk_20240601_162936964](https://github.com/dongridongil/react_native_aora/assets/108976641/69e9784a-b850-49bf-9096-4659e1a15ef2)
 
 ## 회원가입 
-![GIFMaker_me (1)](https://github.com/dongridongil/reactnative_weatherApp/assets/108976641/4ac0af2e-28f7-4e4e-9124-3cc8c426c884)
+![ezgif-2-63ae42bcd7](https://github.com/dongridongil/react_native_aora/assets/108976641/06abccd0-7736-427b-bf8c-bb45088ecf89)
